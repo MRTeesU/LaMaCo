@@ -5,7 +5,7 @@ on: [push]
 env:
   DOTNET_VERSION: 6.0.x
   BUILD_CONFIGURATION: Release
-  PROJECT_PATH: https://lamaco-comments-apii.azurewebsites.net/comments        # set this to the directory path of your project -set
+  PROJECT_PATH: https://lamaco-comments-apii.azurewebsites.net       # set this to the directory path of your project -set
   PUBLISH_PATH: ./myapp
   TESTRESULTS_PATH: ./test-results
   AZURE_WEBAPP_NAME: LaMaCo  # set this to your Azure's app name -set
